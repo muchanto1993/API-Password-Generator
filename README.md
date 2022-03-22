@@ -1,2 +1,2 @@
-# API-Password-Generator
+# API Password Generator
  
