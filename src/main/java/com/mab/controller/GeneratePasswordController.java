@@ -33,7 +33,7 @@ public class GeneratePasswordController {
     }
 
     @PostMapping("/generatepassword")
-    public ResponseEntity<ResponseFormat> apiIndonesia(HttpServletRequest request,
+    public ResponseEntity<ResponseFormat> apiGeneratePassword(HttpServletRequest request,
             @RequestBody RequestBodyFormat requestBodyFormat) {
         log.info("Request Client : " + request.getRemoteAddr());
 
